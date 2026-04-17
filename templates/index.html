@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Disease Prediction</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+
+<body>
+
+    <div class="NAV">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top">
+            <div class=" container-fluid navbar">
+                <a class="navbar-brand" href="#"> Predicted Disease </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#sectionHome">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sectionAbout">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sectionServices">Services</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="#sectioncontact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </div>
+
+    <div id="sectionHome">
+        <div class="c1 ">
+            <div class="text col-6">
+                <h1>
+                    Healthcare Prediction System
+                </h1>
+
+                <p>
+                    The Intelligent Healthcare Prediction System is designed to help users identify possible diseases
+                    based
+                    on
+                    symptoms. This system uses machine learning concepts to provide quick and reliable health
+                    suggestions.
+                    It helps users get early insights about their health conditions before consulting a doctor.
+                </p>
+
+                <p>
+                    The system allows users to enter symptoms and receive predictions along with recommended medicines,
+                    diet
+                    plans,
+                    and workout suggestions. This helps improve healthcare accessibility, especially for people in
+                    remote
+                    areas
+                    where medical facilities may not be easily available.
+                </p>
+
+                <p>
+                    This healthcare system provides fast and user-friendly disease prediction. It helps users understand
+                    their
+                    health condition and take preventive measures at an early stage. The system also promotes awareness
+                    about
+                    maintaining a healthy lifestyle and encourages users to seek professional medical advice when
+                    necessary.
+                </p>
+            </div>
+
+            <div class="img col-6">
+                <img src="{{ url_for('static', filename='images/img1.jpg') }}" alt="" srcset="" class="c1img">
+            </div>
+        </div>
+    </div>
+
+    <div id="sectionAbout">
+        <div class="c1 ">
+
+            <div class="img1 col-4">
+                <img src="{{ url_for('static', filename='images/img9.jpg') }}" alt="" srcset="" class="c1img1">
+            </div>
+
+            <div class="text1 col-8">
+                <h1>
+                    About The System
+                </h1>
+
+                <p>
+                    The Healthcare Prediction System is an intelligent application designed to assist users in
+                    identifying
+                    possible diseases
+                    based on the symptoms they experience. With the rapid advancement of technology and the growing
+                    demand
+                    for
+                    accessible
+                    healthcare services, such systems play an important role in providing preliminary health guidance.
+                    The
+                    main
+                    purpose of
+                    this system is to help users understand their health condition at an early stage and take necessary
+                    precautions before
+                    consulting a medical professional.
+                </p>
+
+                <p>
+                    In today’s fast-paced world, people often ignore minor symptoms due to busy schedules or lack of
+                    access
+                    to
+                    healthcare
+                    facilities. This delay in diagnosis can sometimes lead to serious health complications. The
+                    Healthcare
+                    Prediction System
+                    aims to solve this problem by offering a simple and user-friendly platform where users can enter
+                    their
+                    symptoms and
+                    receive instant disease predictions along with useful recommendations.
+                </p>
+                <p>
+                    This system uses predictive analytics and basic machine learning concepts to analyze the symptoms
+                    entered by
+                    users.
+                    Based on this analysis, it predicts the possible disease and provides suggestions such as
+                    medications,
+                    diet
+                    plans,
+                    precautions, and workout recommendations. This helps users gain awareness about their health
+                    condition
+                    and
+                    encourages
+                    them to seek professional medical advice when necessary.
+                </p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div id="sectionServices">
+        <div class="c1">
+            <div class="col-6">
+
+                <h1>Purpose of the System</h1>
+                <p>
+                    The primary purpose of the Healthcare Prediction System is to improve healthcare accessibility and
+                    promote
+                    early disease
+                    detection. Many people, especially those living in rural or remote areas, may not have immediate
+                    access
+                    to
+                    healthcare
+                    services. In such situations, this system can provide initial guidance and help users understand
+                    whether
+                    their symptoms
+                    require urgent medical attention.
+                </p>
+                <p>
+                    Another important purpose of this system is to reduce the burden on healthcare facilities. Hospitals
+                    and
+                    clinics often
+                    experience overcrowding due to patients visiting for minor health issues. By providing preliminary
+                    predictions and
+                    guidance, this system helps users decide whether they need immediate medical consultation or simple
+                    home
+                    care.
+                </p>
+                <p>
+                    Additionally, the system promotes awareness about preventive healthcare. It encourages users to
+                    adopt
+                    healthy habits,
+                    maintain proper diet, and follow recommended precautions to avoid worsening of symptoms. This
+                    proactive
+                    approach helps
+                    improve overall health and reduces the risk of serious diseases.
+                </p>
+            </div>
+            <div class="img col-6">
+                <img src="{{ url_for('static', filename='images/img4.jpg') }}" alt="" srcset="" class="c1img">
+            </div>
+        </div>
+    </div>
+
+    <div>
+        <div class="containeHome mt-5">
+            <h1>
+                Features of Healthcare Prediction System
+            </h1>
+            <p>
+                The Healthcare Prediction System includes several important features that make it efficient and
+                user-friendly. One of
+                the key features is symptom-based disease prediction. Users can enter multiple symptoms, and the system
+                analyzes them to
+                predict possible diseases.
+            </p>
+            <p>
+                Another important feature is personalized recommendations. After predicting the disease, the system
+                provides
+                suggestions
+                such as recommended medicines, diet plans, and workout routines. These suggestions help users manage
+                their
+                health
+                effectively.
+            </p>
+            <p>
+                The system also provides precautionary measures to prevent the condition from worsening. These
+                precautions
+                may include
+                maintaining hygiene, drinking enough fluids, taking rest, and avoiding certain foods.
+            </p>
+            <P>
+                The user-friendly interface is another important feature of the system. The design is simple and easy to
+                understand,
+                allowing users from different backgrounds to use the system without difficulty.
+            </P>
+            <p>
+                Additionally, the system offers quick and instant results. Users do not need to wait for long periods to
+                get
+                their
+                predictions, making the system efficient and time-saving.
+                </p1>
+        </div>
+    </div>
+
+    <div>
+        <div class="c1 ">
+            <div class="text col-7">
+                <h1>
+                    Benefits of Healthcare Prediction System
+                </h1>
+                <ul>
+                    <li>
+                        The Healthcare Prediction System offers several benefits. One of the main advantages is early
+                        disease
+                        detection.
+                    </li>
+                    <li>
+                        Identifying symptoms at an early stage helps prevent complications and improves treatment
+                        outcomes.
+                    </li>
+
+
+                    <li>
+                        Another benefit is improved healthcare accessibility. The system can be used anytime and
+                        anywhere,
+                        making
+                        healthcare
+                        guidance available to more people. This is especially helpful for individuals who live in areas
+                        with
+                        limited
+                        medical
+                        facilities.
+                    </li>
+                    <li>
+                        The system also helps users save time and money. Instead of visiting hospitals for minor health
+                        issues,
+                        users
+                        can first
+                    <li>
+                        check their symptoms using the system. If necessary, they can then consult a doctor for further
+                        treatment.
+
+                    </li>
+                    <li>
+                        Furthermore, the system promotes health awareness and encourages preventive care. Users learn
+                        about
+                        maintaining a
+                        healthy lifestyle and avoiding risky behaviors that may lead to diseases.
+                    </li>
+                </ul>
+            </div>
+            <div class="img col-5">
+                <img src="{{ url_for('static', filename='images/img10.jpg') }}" alt="img" srcset="" class="c1img">
+            </div>
+        </div>
+    </div>
+
+
+    <div>
+        <div class="containeHome mt-5">
+
+            <h1>
+                Working of Healthcare Prediction System
+            </h1>
+            <p>
+                The Healthcare Prediction System follows a simple and structured workflow. First, the user enters
+                symptoms
+                into thesystem through a web-based interface. The system then processes the input and compares it with
+                predefined
+                symptom-disease data.
+            </p>
+
+
+
+            <p>
+                After analyzing the symptoms, the system predicts the most probable disease. Once the prediction is
+                completed, the
+                system displays the results along with relevant information. This includes disease description,
+                recommended
+                medicines,
+                diet suggestions, workout recommendations, and precautionary measures.
+
+            </p>
+            <p>
+                The system ensures that the process is fast and efficient. It is designed to handle multiple inputs and
+                provide results
+                within seconds. This makes it convenient for users to quickly check their health condition.
+            </p>
+
+        </div>
+    </div>
+
+    <div>
+        <div class="container">
+
+            <h1>Disease Prediction System</h1>
+
+            <form method="POST" action="/predict">
+
+                <input type="text" name="symptoms" placeholder="Enter symptoms (fever cough)">
+                <br><br>
+
+                <button type="submit">Predict</button>
+
+            </form>
+
+            {% if result %}
+            <div class="">
+                <h2>Predicted Disease: {{ result.disease }}</h2>
+
+                <p><b>Medicine:</b> {{ result.medicine }}</p>
+                <p><b>Diet:</b> {{ result.diet }}</p>
+                <p><b>Workout:</b> {{ result.workout }}</p>
+            </div>
+            {% endif %}
+
+        </div>
+    </div>
+
+    <div id="sectioncontact">
+        <div class="text-center but bg">
+            <div class="contact">
+                <h1>Contact Us</h1>
+                <img src="" width="200" class="contactimg">
+                <p>Email: support@Disease Prediction System.com<br>
+                    Phone: +91 9876543210</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

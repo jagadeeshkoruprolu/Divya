@@ -1,0 +1,104 @@
+
+/* shift + alt + f*/
+body {
+    background-color: #f5f5f5;
+    font-family: Arial;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    margin-top: 100px;
+    background: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.containeHome {
+     width: ;
+     margin: auto;
+     margin-top: 100px;
+     background: white;
+     padding: 40px;
+     text-align: left;
+     border-radius: 10px;
+ }
+
+input {
+    width: 80%;
+    padding: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background: green;
+    color: white;
+    border: none;
+}
+
+.m-5 {
+    margin: 30px;
+    padding: 0px;
+}
+
+h1 {
+    color: #2c3e50;
+    font-family: ;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.but {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+
+
+.c1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding: 5%;
+    align-items: center;
+}
+.c1img {
+    border-radius: 10px;
+    width: 100%;
+    height: 60vh;
+   margin-left: 10px;
+   margin-right: 10px;
+}
+.text{
+    margin: 0px 10px;
+}
+.img{
+    margin: 0px 5px;
+}
+
+.text1 {
+    margin-left: 15px;
+}
+
+.img1 {
+    
+    margin-right: 15px;
+}
+
+.c1img1{
+    border-radius: 10px;
+    width: 90%;
+    height: 500px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.bg{
+    background-color: #88aed4;
+    width: 100%;
+}
